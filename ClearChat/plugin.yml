@@ -1,0 +1,16 @@
+name: ClearChat
+main: me.rabbitdegamer.clearchat.ClearChatMain
+version: 1.0
+author: RabbitDeGamer
+description: Clears chat for all players
+ 
+commands:
+  clearchat:
+    description: Clears chat for all players
+    usage: /<command>
+    aliases: [cc]
+    permission: clearchat.admins.clearchat
+  clearchatforme:
+    description: Clears chat for yourself
+    usage: /<command>
+    aliases: [ccfm]
